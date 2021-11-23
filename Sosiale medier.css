@@ -1,0 +1,48 @@
+html, body {
+    margin: 0%;
+}
+.menylinje {
+    background-color: lightgrey;
+    grid-area: menylinje;
+}
+.overskrift {
+    background-color: white;
+    grid-area: overskrift;
+}
+.video {
+    background-color: orange;
+    grid-area: video;
+}
+.tekst1 {
+    background-color: blue;
+    grid-area: tekst1;
+}
+.tekst2 {
+    background-color: lightskyblue;
+    grid-area: tekst2;
+}
+.tekst3 {
+    background-color: mediumblue;
+    grid-area: tekst3;
+}
+.tekst4 {
+    background-color: midnightblue;
+    grid-area: tekst4;
+}
+.tekst5 {
+    background-color: darkblue;
+    grid-area: tekst5;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+    'overskrift overskrift overskrift'
+    'video tekst1 tekst2'
+    'tekst3 tekst1 tekst4'
+    'tekst5 tekst5 tekst5'
+    ;
+    grid-template-columns: 25vw 25vw 25vw 25vw3;
+
+}
